@@ -10,7 +10,7 @@
 					{
 						"type":"object",
 						"properties": {
-							"mode":{
+							"type":{
 								"enum": ["git"]
 							}
 						}
@@ -20,7 +20,7 @@
 							{
 								"type":"object",
 								"properties": {
-									"mode":{
+									"type":{
 										"const": "git"
 									},
 									"url":{

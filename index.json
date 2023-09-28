@@ -1,7 +1,7 @@
 {
 	"packages":{
 		"tail":{
-			"mode":"git",
+			"type":"git",
 			"url": "https://github.com/ubazame-club/tail_public"
 		}
 	},
