@@ -2,7 +2,7 @@
 	"packages":{
 		"tail":{
 			"type":"git",
-			"url": "https://github.com/ubazame-club/tail_public"
+			"url": "https://github.com/ubazame-club/tail_public/"
 		}
 	},
 	"childs": {}
