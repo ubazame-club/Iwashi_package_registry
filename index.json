@@ -1,0 +1,9 @@
+{
+	"packages":{
+		"tail":{
+			"mode":"git",
+			"url": "https://github.com/ubazame-club/tail_public"
+		}
+	},
+	"childs": {}
+}

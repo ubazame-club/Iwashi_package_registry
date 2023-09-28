@@ -1,0 +1,47 @@
+{
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"type":"object",
+	"required": ["packages","childs"],
+	"properties": {
+		"packages":{
+			"type":"object",
+			"additionalProperties": {
+				"allOf": [
+					{
+						"type":"object",
+						"properties": {
+							"mode":{
+								"enum": ["git"]
+							}
+						}
+					},
+					{
+						"oneOf": [
+							{
+								"type":"object",
+								"properties": {
+									"mode":{
+										"const": "git"
+									},
+									"url":{
+										"type":"string",
+										"format": "uri"
+									}
+								},
+								"additionalProperties": false
+							}
+						]
+					}
+				]
+			}
+		},
+		"childs":{
+			"type":"object",
+			"additionalProperties": {
+				"type":"string",
+				"format": "uri"
+			}
+		}
+	},
+	"additionalProperties":false
+}
