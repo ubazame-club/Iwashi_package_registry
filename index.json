@@ -7,7 +7,15 @@
 		"iwashi":{
 			"type":"git",
 			"url": "https://github.com/ubazame-club/iwashi_public/"
-		}
+		},
+        	"urume_iwashi":{
+                	"type":"git",
+            		"url": "https://github.com/ubazame-club/RoundHerring_public"
+        	},
+        	"umihebi":{
+                	"type":"git",
+            		"url": "https://github.com/ubazame-club/umihebi_public"
+        	}
 	},
 	"childs": {}
 }
