@@ -8,9 +8,17 @@
 			"type":"git",
 			"url": "https://github.com/ubazame-club/iwashi_public/"
 		},
+		"maiwashi":{
+			"type":"git",
+			"url": "https://github.com/ubazame-club/maiwashi_public"
+		},
 		"urume_iwashi":{
 			"type":"git",
 			"url": "https://github.com/ubazame-club/RoundHerring_public"
+		},
+		"katakuchi_iwashi":{
+			"type":"git",
+			"url": "https://github.com/ubazame-club/katakuchi_iwashi_public"
 		},
 		"umihebi":{
 			"type":"git",
