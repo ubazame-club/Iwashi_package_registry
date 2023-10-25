@@ -4,10 +4,6 @@
 			"type":"git",
 			"url": "https://github.com/ubazame-club/tail_public/"
 		},
-		"iwashi":{
-			"type":"git",
-			"url": "https://github.com/ubazame-club/iwashi_public/"
-		},
 		"maiwashi":{
 			"type":"git",
 			"url": "https://github.com/ubazame-club/maiwashi_public"
