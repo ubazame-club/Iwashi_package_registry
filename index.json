@@ -1,9 +1,5 @@
 {
 	"packages":{
-		"tail":{
-			"type":"git",
-			"url": "https://github.com/ubazame-club/tail_public/"
-		},
 		"maiwashi":{
 			"type":"git",
 			"url": "https://github.com/ubazame-club/maiwashi_public"
@@ -19,6 +15,10 @@
 		"umihebi":{
 			"type":"git",
 			"url": "https://github.com/ubazame-club/umihebi_public"
+		},
+		"umihebi.tail":{
+			"type":"git",
+			"url": "https://github.com/ubazame-club/tail_public"
 		}
 	},
 	"childs": {}
