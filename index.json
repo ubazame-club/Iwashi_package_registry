@@ -19,6 +19,10 @@
 		"umihebi.tail":{
 			"type":"git",
 			"url": "https://github.com/ubazame-club/tail_public"
+		},
+		"python_runtime":{
+			"type":"git",
+			"url": "https://github.com/ubazame-club/python_runtime"
 		}
 	},
 	"childs": {}
